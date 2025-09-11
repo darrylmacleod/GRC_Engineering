@@ -1,4 +1,4 @@
-NOTES AND CUSTOMIZATION
+NOTES AND CUSTOMIZATION for risk_sync.py
 
 ** SEE COMMENTS IN risk_sync.py FOR INSTALL NOTES **
 
@@ -15,3 +15,7 @@ Risk scoring: Simple likelihood × impact (1–5). Tweak SEVERITY_MAP or compute
 Watermarks: The script stores last synced timestamps in .risk_sync_state.json , so re-runs are incremental.
 
 Security: Use a secrets manager or .env file permissions; never hard-code tokens.
+
+LEARNING RESOURCES
+
+
