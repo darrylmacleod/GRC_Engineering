@@ -19,18 +19,23 @@ Security: Use a secrets manager or .env file permissions; never hard-code tokens
 LEARNING RESOURCES
 
 GRC Playground
+
 https://github.com/ashpearce/GRC-Playground
 
 GRC Engineer Podcast
+
 https://open.spotify.com/show/3SkXwuXewy0qXXhICy5e6W?
 
-GRC Engineering Manifesto
+GRC Engineering Manifest
+o
 https://grc.engineering/
 
 GRC Engineering Learning Hub
+
 https://grc.engineering/learning-hub/
 
 CONTACT DARRYL
 
 darrylm@gmail.com
+
 https://www.linkedin.com/in/darrylmacleod/
