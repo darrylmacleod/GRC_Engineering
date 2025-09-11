@@ -13,13 +13,14 @@
 # pip install requests python-dateutil
 # ---------------------------
 # 2) Configure environment variables
-# For Jira:
+#
+# --- Jira ---
 #export JIRA_BASE_URL="https://yourcompany.atlassian.net"
 #export JIRA_EMAIL="you@company.com"
 #export JIRA_API_TOKEN="atlassian_api_token"
 # e.g., only pull issues tagged as vulnerability or audit
 #export JIRA_JQL='project = SEC AND (labels in (vulnerability, "audit-finding") OR issuetype in ("Vulnerability","Security Finding")) ORDER BY updated DESC'
-
+#
 # --- ServiceNow ---
 #export SN_BASE_URL="https://yourinstance.service-now.com"
 #export SN_USER="api_user"
@@ -29,7 +30,7 @@
 # Query for vulns/findings updated recently; filter to security category
 # (You can refine further for your schema.)
 #export SN_QUERY='category=security^u_typeINvulnerability,audit_finding'
-
+#
 # --- Behaviour ---
 # Default is "now - 7d" on first run; after that it uses the saved watermark
 # Override to backfill: e.g., "2025-09-01T00:00:00Z"
