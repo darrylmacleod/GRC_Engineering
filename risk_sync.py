@@ -1,5 +1,5 @@
 # Production-ready Python script that watches Jira and/or ServiceNow for new/updated vulnerabilities or audit findings 
-# and upserts them into a local risk_register.csv (idempotent, incremental, and easy to cron).
+# and upserts them into a local risk_register.csv
 # It supports:
 #
 # Jira Cloud (JQL filter)
