@@ -1,5 +1,7 @@
 Notes & customization
 
+** SEE COMMENTS IN risk_sync.py FOR INSTALL NOTES
+
 Where to store the risk register: This writes to risk_register.csv. Swap upsert_csv() with a function that hits your internal risk-register DB or GRC tool API if you have one.
 
 What counts as a vulnerability or audit finding?
